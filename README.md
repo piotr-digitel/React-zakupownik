@@ -1,3 +1,10 @@
+# Live demo: http://digitel.ugu.pl
+
+
+
+
+#Treść zadań:
+
 # PS 5 - 13.02.2022 Zadanie zaliczeniowe (sem1) - "Zakupownik"
 
 Maksymalna ilość punktów: 5
