@@ -1,0 +1,60 @@
+$color-red: #df7e00;
+$color-yellow: #03002b;
+
+.App {
+  text-align: center;
+  display: flex;
+  width: 50vw;
+}
+
+.AppHeader {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+  width: 100%;
+  background-image: url('../img/sklep.jpg');
+  background-size: cover;
+  padding: 2% 0 0 0;
+}
+
+.AppHeaderR {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: $color-yellow;
+  width: 100%;
+  background-image: url('../img/kartka.jpg');
+  background-position: center;
+  background-repeat: repeat-y;
+  padding: 5% 0 0 0;
+}
+
+.AppList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.AppListProd {
+  border-left: 5px solid #df7e00;
+  padding: 10px 30px; 
+  list-style-type: none;
+}
+
+.AppListProd li:hover {
+ color: #df7e00
+}
+
+.ListL {
+  padding: 6%;
+  background-color: #f1f1f1c2;
+}
+
+b {
+  color: #df7e00;
+}
