@@ -3,9 +3,9 @@
 
 
 
-#Treść zadań:
+# Treść zadań:
 
-# PS 5 - 13.02.2022 Zadanie zaliczeniowe (sem1) - "Zakupownik"
+PS 5 - 13.02.2022 Zadanie zaliczeniowe (sem1) - "Zakupownik"
 
 Maksymalna ilość punktów: 5
 
@@ -38,27 +38,27 @@ Aplikacja zawiera zdefiniowaną listę produktów w pliku src/common/consts/prod
   ```
 
 
-# Zadanie nr.1 (obowiązkowe) - 3pkt
+Zadanie nr.1 (obowiązkowe) - 3pkt
 - Lewa kolumna (dostępnych produktów) powinna wyświetlać listę produktów pochodzącą z pliku produkty.js w postaci listy nienumerowanej (wyświetlamy tylko nazwę)
 - Kliknięcie lewym przyciskiem myszy na jeden z produktów dodaje go do 'listy zakupowej'
 - Prawa kolumna wyświetla aktualną listę zakupową, zatem na początku będzie pusta, lecz po kliknięciu na dowolny produkt z listy dostępnych produktów pojawi się on na liście zakupowej (wybrany element nie znika z listy dostępnych produktów)
 - Powinna istnieć możliwość wielokrotnego wybrania tego samego produktu, w tym celu wystarczy ponownie wybrać element z listy po lewej stronie, poczym po prawej powinien on się pojawić jako kolejna pozycja
 - Kliknięcie prawym przyciskiem myszy na dowolny element z listy zakupowej powinien usunąć go z listy (symuluje to sytuacje w ktorej ktoś wrzucił produkt do wózka z zakupami i usunął go z listy zakupowej)
 
-# Zadanie nr.2 - Filtrowanie listy "dostępnych produktów" (0.5 pkt)
+Zadanie nr.2 - Filtrowanie listy "dostępnych produktów" (0.5 pkt)
 Lista po lewej stronie (dostępnych produktów) może być bardzo długa, zatem powinna posiadać możliwość filtrowania aby w krótkim czasie wyszukać interesujący Nas produkt. Sekcja filtrów powinna posiadać 2 typy filtrów:
 
 - po nazwie (lub jej części) - wielkość liter ma znaczenie (input typu text)
 - po kategorii - powinna istnineć możlwość wybrania dowolnej kategorii z pośród istniejących  (lista rozwijana - dropdown) - **kategorie powinny być pobierane dynamicznie (przykład był pokazywany na zajęciach), będzie to konieczne aby zrealizować zadanie nr.3**
 - sekcja powinna również posiadać przycisk "Wyszukaj" który będzie filtrował wyniki na podstwie wybranych wartości
 
-# Zadanie nr.2a - Rozszerzone filtry (0.5 pkt)
+Zadanie nr.2a - Rozszerzone filtry (0.5 pkt)
 Zmodyfikuj sekcję filtrów aby zawierała poniższe udoskonalenia:
 - dodaj filtr "Tylko produkty spożywcze", który będzie inputem typu "checkbox"
 - filtrowanie powinno się odbywać bez użycia przycisku wyszukaj - (po każdorazowej zmianie dowolnego z filtrów lista "proponowanych produktów" powinna być poddawana filtrowaniu
 - podczas wyszukiwania po nazwie wielkość liter nie powinna mieć znaczenia
 
-# Zadanie nr.3 - Dodawanie nowych produktów do listy "dostępnych produktów" (0.5pkt)
+Zadanie nr.3 - Dodawanie nowych produktów do listy "dostępnych produktów" (0.5pkt)
 Domyślnie lista "dostępnych produktów" wyświetlana jest na podstawie danych z pliku produkty.js. Celem tego zadania jest umożliwienie użytkownikowy dodawania dodatkowych produktów do listy po lewej stronie. Dane powinny być kompletne, zatem w ramach zadania powinny powstać następujące elementy:
 - pole tekstowe - nazwa
 - **pole tekstowe** - kategoria - **można dodawać produkty o nowych kategorich**
@@ -67,7 +67,7 @@ Domyślnie lista "dostępnych produktów" wyświetlana jest na podstawie danych 
 
 Nowo dodane produkty powinny być w pełni interaktywne, tj. powinny działać zgodnie z zadaniami 1 oraz 2. W przypadku zadania 2 nowe kategorie powinny być widoczne na liście rozwijanej.
 
-# Zadanie nr.4 - Odznaczanie produktów "kupionych" (0.5pkt)
+Zadanie nr.4 - Odznaczanie produktów "kupionych" (0.5pkt)
 Po wykonaniu zadania 1, kliknięcie na produkt z listy zakupowej (prawa kolumna) powoduje jego zniknięcie. Celem tego zadania jest rozszerzenie tej funkcjonalności o poniższą:
  - kliknięcie prawym przyciskiem myszy na element powoduje jego przekreślenie
  - ponowne kliknięcie prawym przyciskiem na przekreślony element powoduje że staje się on z powrotem nieprzekreślony
